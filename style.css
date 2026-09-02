@@ -1,0 +1,11 @@
+.kort{
+    padding: 1rem;
+    background-color: #43945c;
+    border: 1px solid #557aab;
+    color: #0f172a;
+    font-family: sans-serif;
+}
+.kort img{
+    max-width: 100%;
+    height: auto;
+}
