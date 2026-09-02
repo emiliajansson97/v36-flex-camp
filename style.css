@@ -5,6 +5,9 @@
     border: 1px solid #557aab;
     color: #0f172a;
     font-family: sans-serif;
+    border: 8px solid #b22a94;
+    border-color: #b22a94;
+    border-radius: 20px;
 }
 .kort img{
     max-width: 100%;
@@ -14,4 +17,17 @@
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.btn{
+    margin-top: auto;
+    display: inline-block;
+    padding: 0.45rem 0.75rem;
+    background-color: #0f172a;
+    color: #f8fafc;
+    text-decoration: none;
+    font-weight: 700;
+    border: 3px solid #b22a94;
+    border-radius: 10px;
 }
