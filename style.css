@@ -1,4 +1,5 @@
 .kort{
+    flex: 1 1 200px;
     padding: 1rem;
     background-color: #43945c;
     border: 1px solid #557aab;
@@ -8,4 +9,9 @@
 .kort img{
     max-width: 100%;
     height: auto;
+}
+.kort-rad{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
